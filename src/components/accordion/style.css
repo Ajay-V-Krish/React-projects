@@ -1,0 +1,56 @@
+.heading{
+    color: #ab1212;
+    font-size: 150px;
+    font-style: italic;
+    position: absolute;
+    top: 0;
+    font-weight: lighter;
+}
+
+.wrapper{
+    display: flex;
+    height: 110vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-top: 20px;
+}
+
+
+.wrapper button{
+    padding: 20px;
+    background-color: blueviolet;
+    color: #fff;
+    cursor: pointer;
+    width: 31.25rem;
+}
+
+.wrapper button:hover{
+   background-color: black;
+}
+
+
+.Accordion{
+    width: 31.25rem;
+}
+
+.item{
+    background: blueviolet;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+}
+
+.title{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    align-items: center;
+}
+
+.content{
+    height: auto;
+    color: #fff;
+}
