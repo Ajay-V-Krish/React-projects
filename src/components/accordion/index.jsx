@@ -27,7 +27,7 @@ export default function Accordion() {
 
   return (
     <div className="wrapper">
-      <h1 className="heading">ACCORDION</h1>
+      <h1 className="heading">Accordion</h1>
 
       <button
         onClick={() => {
